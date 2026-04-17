@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "command": "node $CLAUDE_PLUGIN_ROOT/scripts/hooks/auto_recall.js",
+        "description": "Inject additionalContext that asks the main agent to invoke trajectory-memory-suggester when auto recall is enabled"
+      }
+    ]
+  }
+}

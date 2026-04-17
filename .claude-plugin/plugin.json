@@ -1,0 +1,13 @@
+{
+  "name": "learn-once",
+  "version": "0.1.0",
+  "description": "Learn-Once 轨迹经验增强组件 - 召回历史纠偏经验减少重复成本",
+  "author": "",
+  "agents": [
+    "./agents/trajectory-memory-constructor.md",
+    "./agents/trajectory-memory-suggester.md"
+  ],
+  "skills": [
+    "./skills/"
+  ]
+}
